@@ -1,0 +1,23 @@
+{
+  "name": "frontend-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --noEmit && parcel index.html --global customModule --port 3000",
+    "build": "tsc --noEmit && parcel build index.html --global customModule --public-url ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/parcel-env": "0.0.0",
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.4"
+  }
+}
