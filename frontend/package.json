@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc --noEmit && parcel index.html --global customModule --port 3000",
-    "build": "rm -rf dist/* && tsc --noEmit && parcel build index.html --global customModule"
+    "build": "rm -rf dist/* && tsc --noEmit && parcel build index.html --global customModule",
+    "start": "node ./dist/index.html"
   },
   "author": "",
   "license": "ISC",
