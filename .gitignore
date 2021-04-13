@@ -1,11 +1,17 @@
 *.iml
 .idea
+frontend/.cache
+frontend/.parcel-cache
 node_modules
 frontend/node_modules
+frontend/dist
 backend/target
 target
 .DS_Store
-/dist
+
+frontend/!/.cache
+!/.parcel-cache
+
 
 # local env files
 .env.local
@@ -24,3 +30,6 @@ yarn-error.log*
 *.sln
 *.sw?
 
+*.cache/
+*.parcel-cache/
+/frontend/dist/

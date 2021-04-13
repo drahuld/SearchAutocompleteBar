@@ -4,11 +4,14 @@ import { SearchTypeEnum } from './model/SearchTypeEnum';
 
 export async function fetchSearchResultFromRestApi() {
     const searchTerm = (document.getElementById('searchTermId') as HTMLInputElement).value;
-    console.log('searchTerm : ', searchTerm);
+
+    if (!searchTerm) {
+        return false;
+    }
 
     if (searchTerm && searchTerm.length <= 1) {
         clearSearchTextAndSearchResultDiv();
-        return null;
+        return false;
     }
 
     let searchResults: ISearchResult[] = [];
@@ -33,8 +36,6 @@ export async function fetchSearchResultFromRestApi() {
     } catch (e) {
         console.error("Some Error occurred while searching : ", e);
     }
-
-    console.log("search: searchResults", searchResults);
 }
 
 function generateSearchAutoCompleteSuggestions(searchResults: ISearchResult[]) {

@@ -20,13 +20,12 @@
                 <li><a href="#contact">Punkte einlösen</a></li>
                 <li><a href="#contact">eCoupons</a></li>
                 <li><a href="#contact">App</a></li>
-                <li style="float:right; width: 100px;"><input type="search" placeholder="Search term..." id="searchTermId"
+                <li style="float:right; width: 100px;"><input type="search" required placeholder="Suchbegriff'" id="searchTermId"
                                                               autocomplete="off"
                                                               onfocus="customModule.fetchSearchResultFromRestApi()"
                                                               oninput="customModule.fetchSearchResultFromRestApi()"/></li>
             </ul>
             <div class="dropdown">
-
                 <div id="resultPanel" class="dropdown-content">
                     <div id="gridContainerId" class="grid-container">
                         <div id="item1FlexId" class="item1Flex">

@@ -44,9 +44,6 @@ li input {
     min-width: 220px;
 }
 
-li input:hover {
-
-}
 li input:hover + a {
     max-width:0;
     opacity: 0;
