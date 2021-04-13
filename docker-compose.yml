@@ -1,0 +1,19 @@
+version: '3'
+services:
+  search-autocomplete-frontend:
+    build:
+      context: ./frontend
+      dockerfile: frontend.Dockerfile
+    image: rahuldeshmukh28/search-autocomplete-frontend:latest
+    environment:
+      PORT: 3000
+      PROXY_API: http://localhost:8080/
+    ports:
+      - 3000:3000
+  search-autocomplete-backend:
+    build:
+      context: ./backend
+      dockerfile: backend.Dockerfile
+    image: rahuldeshmukh28/search-autocomplete-backend:latest
+    ports:
+      - 8080:8080
