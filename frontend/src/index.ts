@@ -6,18 +6,17 @@ export async function fetchSearchResultFromRestApi() {
     const searchTerm = (document.getElementById('searchTermId') as HTMLInputElement).value;
 
     if (!searchTerm) {
-        return false;
+        return;
     }
 
     if (searchTerm && searchTerm.length <= 1) {
         clearSearchTextAndSearchResultDiv();
-        return false;
+        return;
     }
 
     let searchResults: ISearchResult[] = [];
     try {
         searchResults = await (new SearchService().getSearchResults(searchTerm));
-        console.log('Search Results : ', searchResults);
         if (searchResults && searchResults.length > 0) {
             const resultPanelDiv = (document.getElementById("resultPanel") as HTMLElement);
             resultPanelDiv.style.display = "block";
@@ -28,10 +27,6 @@ export async function fetchSearchResultFromRestApi() {
             searchInputElement.addEventListener("search", (e : Event) => {
                 clearSearchTextAndSearchResultDiv();
             });
-
-           /*((document.getElementById('searchTermId') as HTMLInputElement)).addEventListener('focusout', (event) => {
-                (document.getElementById('resultPanel') as HTMLInputElement).style.display = "none";
-            });*/
         }
     } catch (e) {
         console.error("Some Error occurred while searching : ", e);

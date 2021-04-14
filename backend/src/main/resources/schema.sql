@@ -317,7 +317,7 @@ VALUES ('uuewlkuuusflwaalsdflsa', 'https://www.payback.de/pb/res/mam/1/lp702797/
         'https://www.payback.de/shop/feelunique', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
-VALUES ('uuewlkuuubbsflwwslsdflsa', '', 'Geschenkidee.de', '1 °P pro 2 €',
+VALUES ('uuewlkuuubbsflwwslsdflsa', 'https://www.payback.de/pb/res/mam/1/geschenkidee_fs/43/0/1/geschenkidee_fs.png', 'Geschenkidee.de', '1 °P pro 2 €',
         'https://www.payback.de/praemien/produkt/ade-koerperanalysewaage-ba2001_9010769', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
@@ -325,7 +325,7 @@ VALUES ('uuewlkuuubbsflbgslsdflsa', 'https://www.payback.de/pb/res/mam/1/atelier
         'https://www.payback.de/shop/ateliergs', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
-VALUES ('uuewlkuuhhbsflwwslsdflsa', '', 'atrendo', '1 °P pro 2 €',
+VALUES ('uuewlkuuhhbsflwwslsdflsa', 'https://www.payback.de/pb/res/mam/1/atrendo/43/0/1/atrendo.png', 'atrendo', '1 °P pro 2 €',
         'https://www.payback.de/info/pausierte-shops', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
@@ -337,7 +337,7 @@ VALUES ('uuewlkuuubbsflwwshysdflsa', 'https://www.payback.de/pb/res/mam/1/lp6277
         'https://www.payback.de/shop/angelplatz', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
-VALUES ('uuewlkuuubbsflwwscxdflsa', '', 'Beate Uhse', '1 °P pro 2 €',
+VALUES ('uuewlkuuubbsflwwscxdflsa', 'https://www.payback.de/pb/res/mam/1/lp628413/43/0/1/lp628413.png', 'Beate Uhse', '1 °P pro 2 €',
         'https://www.payback.de/info/pausierte-shops', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
@@ -365,11 +365,7 @@ VALUES ('uuewlkuusflwuiowslsdflsa', 'https://www.payback.de/pb/res/mam/1/lp70294
         'https://www.payback.de/shop/bodyandfit', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
-VALUES ('uuewlkuuubbslfrwslsdflsa', '', 'BodyChange®-Shop', '1 °P pro 2 €',
-        '', CURRENT_TIMESTAMP);
-
-INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
-VALUES ('uuewlkuuuasdeflwwslsdflsa', '', 'BodyChange®-Shop',  '1 °P pro 2 €',
+VALUES ('uuewlkuuuasdeflwwslsdflsa', 'https://www.payback.de/pb/res/mam/1/bodychange/43/0/1/bodychange.png', 'BodyChange®-Shop',  '1 °P pro 2 €',
         'https://www.payback.de/info/pausierte-shops', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
@@ -405,7 +401,7 @@ VALUES ('uuewlkuuubfbbbsfllsdflsa', 'https://www.payback.de/resources/blob/16554
         'https://www.payback.de/info/american-express/aktion', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)
-VALUES ('uuewlkuuublwwmmmslsdflsa', '', 'flatex', '3000 °P pro Abschluss',
+VALUES ('uuewlkuuublwwmmmslsdflsa', 'https://www.payback.de/pb/res/mam/1/lp707712/43/0/1/lp707712.png', 'flatex', '3000 °P pro Abschluss',
         '', CURRENT_TIMESTAMP);
 
 INSERT INTO ONLINE_SHOP (ID, LOGO_URL, NAME, POINTS, SHOP_URL,CREATION_DATE)

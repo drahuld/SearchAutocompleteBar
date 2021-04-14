@@ -27,7 +27,6 @@ input[type=search]:focus {
   background-color: white;
 }
 
-/* Style the header */
 header {
   background-color: white;
   padding: 0;
@@ -35,13 +34,11 @@ header {
   color: white;
 }
 
-/* Style the footer */
 main {
   height: 65vh;
   text-align: center;
 }
 
-/* Style the footer */
 footer {
   position: fixed;
   left: 0;
@@ -85,7 +82,6 @@ footer {
 }
 
 .itemsFlex {
-
 }
 
 .items {
@@ -183,20 +179,10 @@ a:visited {
 }
 
 ul.no-bullets {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
-}
-
-/*
-ul > li.items {
-  color: #0046aa;
-  font-size: 14px;
-  padding-top: 0;
-  padding-bottom: 18px;
+  list-style-type: none;
+  padding: 0;
   margin: 0;
 }
-*/
 
 .button {
   position: relative;

@@ -28,10 +28,4 @@ public class SearchRestController {
         return null;
     }
 
-    @GetMapping(value = "/v1/test/{searchTerm}")
-    public String helloworld(@PathVariable(value = "searchTerm") String searchTerm) {
-
-        return "Hello World example " + searchTerm;
-    }
-
 }
