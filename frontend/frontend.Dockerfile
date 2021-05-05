@@ -1,4 +1,6 @@
-FROM node:alpine3.11 AS build
+FROM node:11.12.0-alpine AS build
+
+RUN apk update && apk add python make g++
 
 # Create an application directory
 RUN mkdir -p /app
