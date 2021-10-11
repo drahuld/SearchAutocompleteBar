@@ -4,10 +4,9 @@ pipeline {
             PATH = "$PATH:/usr/bin"
     }
     stages {
-        stage('Deploy') {
+        stage('Hello World') {
             steps {
-                sh 'docker-compose build'
-                sh 'docker-compose up -d'
+               echo 'Hello World from Repository'
             }
         }
     }
